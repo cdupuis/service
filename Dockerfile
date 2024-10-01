@@ -1,4 +1,4 @@
-FROM cdupuis/base:main@sha256:954ce82052b2d8f7521162f38be67454f39694cfb0e1cc1ae64b76357421b046
+FROM cdupuis/base:main@sha256:816d8da81f24bac0a0b39a9fb076999c20b134b4019bafd1f039b3585b3a2daa
 
 RUN date > date.txt
 
