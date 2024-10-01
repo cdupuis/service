@@ -59,6 +59,7 @@ jobs:
           command: cves
           image: ${{ steps.meta.outputs.tags }}
           only-severities: critical,high 
+          write-comment: false
 
       - name: Create secret scanning report
         run: |
